@@ -1,8 +1,10 @@
 {
   "name": "strip-it",
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "dev": "next dev",
+    "format": "npx prettier --with-node-modules --write node_modules/next/dist/build/",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

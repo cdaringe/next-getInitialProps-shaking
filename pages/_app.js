@@ -1,5 +1,1 @@
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
-
-export default MyApp;
+export { default } from "../packages/pages/app-page";
